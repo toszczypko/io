@@ -16,15 +16,15 @@ int main() {
 	setlocale(LC_CTYPE, "Polish");
 
 	double km;
-	std::cout << "Podaj odleg³oœæ w kilometrach: ";
+	std::cout << "Podaj odlegÂ³oÅ“Ã¦ w kilometrach: ";
 	std::cin >> km;
 	if (km <= 0) {
-		std::cout << "B³êdna odleg³oœæ!\n";
+		std::cout << "BÂ³Ãªdna odlegÂ³oÅ“Ã¦!\n";
 		return -1;
 	}
 	Miles miles = kmToMiles(km);
-	std::cout << "Odleg³oœæ w milach l¹dowych: " << miles.land << '\n';
-	std::cout << "Odleg³oœæ w milach morskich: " << miles.nautical << '\n';
+	std::cout << "OdlegÂ³oÅ“Ã¦ w milach lÂ¹dowych: " << miles.land << '\n';
+	std::cout << "OdlegÂ³oÅ“Ã¦ w milach morskich: " << miles.nautical << '\n';
 
 	return 0;
 }
