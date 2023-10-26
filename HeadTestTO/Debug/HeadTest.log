@@ -1,0 +1,4 @@
+﻿  CheckResult.cpp
+Database.obj : error LNK2001: nierozpoznany symbol zewnętrzny "private: static struct SolvedTestEntry * Database::m_Entries" (?m_Entries@Database@@0PAUSolvedTestEntry@@A)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: nierozpoznany symbol zewnętrzny _main przywołany w funkcji "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\tomoszc2\source\repos\HeadTest\Debug\HeadTest.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 2
