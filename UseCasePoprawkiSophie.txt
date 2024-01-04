@@ -1,0 +1,20 @@
+Przypisz studentów do testu
+
+Główny
+1. prowadzący do przygotowanego testu przypisuje wszystkich studentów którzy powinni otrzymać do niego dostęp
+   1.a. prowadzący dodaje egzaminowanych studentów
+2. prowadzący zatwierdza listę studentów
+
+Alternatywny
+1. Prowadzący wprowadza dane studenta który nie istnieje
+2. Prowadzący otrzymuje informacje o niepowodzeniu
+
+Logowanie
+
+Główny
+1. Użytkownik podaje dane logowania które znajdują się w bazie użytkowników
+2. użytkownik uzyskuje dostęp do konta
+
+Alternatywny
+1. Użytkownik podaje dane logowania które nie znajdują się w bazie użytkowników
+2. użytkownik nie uzyskuje dostępu do konta
