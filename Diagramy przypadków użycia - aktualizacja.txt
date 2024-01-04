@@ -1,0 +1,93 @@
+UTWÓRZ TEST - Flow of Events:
+Główny:
+1. Prowadzący wybiera przycisk "Utwórz test".
+2. Prowadzący dodaje pytania i odpowiedzi, jednocześnie wskazując na poprawną odpowiedź.
+3. Prowadzący zapisuje utworzony test.
+
+
+
+URUCHOM TEST - Flow of Events:
+Główny:
+1. Prowadzący wchodzi w zakładkę testy.
+2. Prowadzący wybiera uprzednio przygotowany test, który chce rozpocząć.
+3. Prowadzący zaznacza okienko przy etykiecie "Rozpoczęty".
+
+Alternatywny:
+1. Prowadzący wchodzi w zakładkę testy, bez przygotowanych uprzednio testów.
+2. Platforma informuje o braku przygotowanych testów, umożliwiając przekierowanie do utworzenia nowego testu.
+
+
+
+ZAREJESTRUJ SIĘ - Flow of events:
+Główny:
+1. Student otrzymuje kod pozwalający się zarejestrować od prowadzącego.
+2. Student podaje kod.
+3. Stuent wpisuje swoje dane (imie, nazwisko, nr albumu).
+4. Student wpisuje kierunek oraz wydział.
+5. Student wpisuje wybrane przez niego hasło.
+6. if Hasła się zgadzają oraz album jest unikalny.
+   6.1. Konto zostaje dodane do bazy danych.
+7. else 
+   7.1. Student jest informowany o niepowodzeniu.
+   end if 
+
+Alternatywny:
+1. Student ponownie wykonuje powyższe czynności dla tych samych danych
+2. Student jest informowany o niepowodzeniu - konto już istnieje w systemie.
+
+
+
+WYKONAJ TEST - Flow of Events
+1. Student uruchamia test
+2. while true:
+    1. Student odpowiada na pytanie nr x
+    2. lub Student zmienia na następne / poprzednie pytanie
+    3. lub Student kasuje swoją odpowiedź
+    4. lub Student kończy test
+
+
+
+SPRAWDŹ WYNIKI - Flow of Events
+1. Prowadzący uruchamia wyniki
+2. Ukazuje się lista z wynikiem każdego studenta
+3. Prowadzący wybiera, którego studenta chce zobaczyć odpowiedzi
+4. Ukazuje się lista wszystkich odpowiedzi wybranego studenta, z zaznaczonymi prawidłowymi i błędnymi odpowiedziami
+
+
+
+ODWOŁAJ SIĘ DO WYNIKU - Flow of Events
+1. Student uruchamia podgląd wyników
+2. Student wybiera pytanie od którego chce się odwołać
+3. Student wpisuje powód odwołania
+4. Student wysyła odwołanie, które zapisuje się w systemie
+
+
+
+PRZYPISZ STUDENTÓW DO TESTU - Flow of Events
+Główny
+1. prowadzący do przygotowanego testu przypisuje wszystkich studentów którzy powinni otrzymać do niego dostęp
+   1.a. prowadzący dodaje egzaminowanych studentów
+2. prowadzący zatwierdza listę studentów
+
+Alternatywny
+1. Prowadzący wprowadza dane studenta który nie istnieje
+2. Prowadzący otrzymuje informacje o niepowodzeniu
+
+
+
+LOGOWANIE - Flow of Events
+Główny
+1. Użytkownik podaje dane logowania które znajdują się w bazie użytkowników
+2. użytkownik uzyskuje dostęp do konta
+
+Alternatywny
+1. Użytkownik podaje dane logowania które nie znajdują się w bazie użytkowników
+2. użytkownik nie uzyskuje dostępu do konta
+
+
+
+
+
+
+
+
