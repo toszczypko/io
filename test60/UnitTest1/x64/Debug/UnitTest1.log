@@ -1,0 +1,4 @@
+﻿  UnitTest1.cpp
+C:\DyskD\sem3\io\test60\UnitTest1\UnitTest1.cpp(38,1): warning C4305: "argument": obcięcie z "int (__cdecl *)(void)" do "bool"
+     Trwa tworzenie biblioteki C:\DyskD\sem3\io\test60\UnitTest1\x64\Debug\UnitTest1.lib i obiektu C:\DyskD\sem3\io\test60\UnitTest1\x64\Debug\UnitTest1.exp
+  UnitTest1.vcxproj -> C:\DyskD\sem3\io\test60\UnitTest1\x64\Debug\UnitTest1.dll
